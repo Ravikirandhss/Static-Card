@@ -80,7 +80,7 @@ span
   height:12%;
   display:inline;
 }
-@media  screen  and (max-width:304px){
+@media  screen  and (min-width:150px) and (max-width:304px){
   body
   {
     font-style:oblique;
@@ -89,11 +89,11 @@ span
   {
     display:inline;
   }
-  .ID11,.ID21
+  #Id11,#Id21
   {
     margin:2%;
-    width:400px;
-    word-wrap:break-word;
+    width:90%;
+    word-wrap: break-word;
   }
   .Id1,.Id2
   {
@@ -115,10 +115,10 @@ span
   {
     display:inline;
   }
-  .ID11,.ID21
+  #Id11,#Id21
   {
     margin:2%;
-    width:400px;
+    width:80%;
     word-wrap:break-word;
   }
   .Id1,.Id2
@@ -141,9 +141,11 @@ span
   {
     justify-content: space-around;
   }
-  .ID11,.ID21
+  #Id11,#Id21
   {
+    width:70%;
     margin:2%;
+
     word-wrap:break-word;
   }
   .Id1,.Id2
@@ -160,10 +162,10 @@ span
   {
     justify-content: center;
   }
-  .ID11,.ID21
+  #Id11,#Id21
   {
     margin:2%;
-    width:400px;
+    width:65%;
     word-wrap:break-word;
   }
   .Id1,.Id2
